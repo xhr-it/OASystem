@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="OASystem:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/OASystem_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="OASystem/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="OASystem" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="standard" />
+          <element id="library" level="project" name="jstl" />
+          <element id="library" level="project" name="json-lib-2.3-jdk15" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.7-bin" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
