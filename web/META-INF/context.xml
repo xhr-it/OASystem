@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Context>
+     <Resource name="jdbc/oa"
+               factory="com.alibaba.druid.pool.DruidDataSourceFactory" auth="Container"
+               type="javax.sql.DataSource"  maxActive="100"
+       maxWait="100000"   username="root"   password="root" removeabandoned="true"
+               removeabandonedtimeout="60" filters="stat"
+      driverClassName="com.mysql.jdbc.Driver"
+     url="jdbc:mysql://localhost:3306/oa?useUnicode=true&amp;characterEncoding=UTF8"/>
+</Context>
